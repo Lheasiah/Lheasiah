@@ -68,7 +68,7 @@
       "./images/image7.gif"
     ];
   
-    noButton.addEventListener('click', function() {
+   noButton.addEventListener('click', function() {
       if (noClickCount < 5) {
         noClickCount++;
         imageDisplay.src = imagePaths[noClickCount];
